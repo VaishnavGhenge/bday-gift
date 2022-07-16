@@ -2,10 +2,11 @@ body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
     color: #ffffff;
-    background-color: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+
 }
 
-h1, h2, h3, h4 p {
+h1, h2, h3, h4, p {
     text-shadow: 0px 0px 1px black;
 }
 
@@ -58,9 +59,6 @@ h1, h2, h3, h4 p {
     height: 400px;
     border: 6px solid white;
     border-radius: 10px;
-}
-
-#happy-img {
     background-image: url("./images/gift-cover.webp");
     background-size: cover;
 }
@@ -69,29 +67,32 @@ h1, h2, h3, h4 p {
     background-image: url("./images/happy.webp");
 }
 
-#react-img {
-    background-image: url("./images/gift-cover.webp");
-    background-size: cover;
-}
-
 #react-img:hover {
     background-image: url("./images/hot.gif");
-}
-
-#genius-img {
-    background-image: url("./images/gift-cover.webp");
-    background-size: cover;
 }
 
 #genius-img:hover {
     background-image: url("./images/genius.webp");
 }
 
-#badass-img {
-    background-image: url("./images/gift-cover.webp");
-    background-size: cover;
-}
-
 #badass-img:hover {
     background-image: url("./images/badass.webp");
+}
+
+#special-img {
+    height: 200px;
+}
+
+#special-img:hover {
+    background-image: url("./images/cheers.gif");
+}
+
+#footer {
+    width: 400px;
+    font-style: italic;
+    margin: 20px auto 40px auto;
+}
+
+a {
+    color: white;
 }
